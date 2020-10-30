@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6638898642298709761}
   - component: {fileID: 2498808617815338021}
   - component: {fileID: 1596164778765597442}
+  - component: {fileID: 73388179}
+  - component: {fileID: 73388180}
   m_Layer: 0
   m_Name: Eenmy
   m_TagString: Untagged
@@ -94,3 +96,28 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &73388179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8881312406671626859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f315d2ebfa38f4cb782546b0255421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &73388180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8881312406671626859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 315199c5182dae44cbcfddf0890bcd16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 100
