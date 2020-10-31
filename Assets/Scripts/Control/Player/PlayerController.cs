@@ -21,9 +21,11 @@ namespace RPG.Control
         // Update is called once per frame
         void Update()
         {
-            if (CombatInteract()) return; 
+            if(health.IsDead()) return;
+            if (CombatInteract()) return;
+           
             if (MovementInteract()) return;
-            if (health.IsDead()) return;
+            
 
 
         }
@@ -60,7 +62,7 @@ namespace RPG.Control
             {
                 if (Input.GetMouseButton(0))
                 {
-                    GetComponent<Mover>().StartMoveAction(hit.point);
+                    GetComponent<Mover>().StartMoveAction(hit.point, 1f);
                 }
                 return true;
             }
