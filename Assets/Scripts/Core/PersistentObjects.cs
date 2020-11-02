@@ -6,7 +6,7 @@ using UnityEngine;
 public class PersistentObjects : MonoBehaviour
 {
 
-    [SerializeField] GameObject persistentObjectPrefab;
+    [SerializeField] GameObject persistentObjectPrefab = null;
 
     static bool hasSpawned;
 

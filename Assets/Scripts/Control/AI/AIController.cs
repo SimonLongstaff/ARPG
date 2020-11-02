@@ -1,9 +1,7 @@
 ﻿using RPG.Combat;
 using RPG.Core;
 using RPG.Movement;
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using RPG.Resources;
 using UnityEngine;
 
 namespace RPG.Control
@@ -12,7 +10,7 @@ namespace RPG.Control
     {
         [SerializeField] float ChaseDistance = 5f;
         [SerializeField] float searchTime = 5f;
-        [SerializeField] PatrolPath patrolPath;
+        [SerializeField] PatrolPath patrolPath = null;
         [SerializeField] float waypointTolerance = 2f;
         [SerializeField] float waypointDwelltime = 3f;
 

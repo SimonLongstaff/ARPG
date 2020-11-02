@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b9df170a11d53d4388df6ce53bdc509, type: 3}
+  m_Name: Flame Bow
+  m_EditorClassIdentifier: 
+  weaponOverride: {fileID: 22100000, guid: afd16d0ca3ab1be4eb8ca49562c34cab, type: 2}
+  weaponDamage: 15
+  WeaponRange: 20
+  equppiedWeapon: {fileID: 5001933964268564228, guid: bb9132d999b0c3f4a89094c19d74c732,
+    type: 3}
+  isRightHanded: 0
+  projectile: {fileID: 7707408482414657846, guid: e4d96cba9a3c1f547ab34543d6e69835,
+    type: 3}
